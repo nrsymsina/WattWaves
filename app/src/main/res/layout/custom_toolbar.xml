@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@drawable/blue_gradient_background">
+
+
+    <ImageView
+        android:id="@+id/backIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:src="@drawable/ic_back_white"/>
+
+    <TextView
+        android:id="@+id/titleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="?actionBarSize"
+        android:text="WattWaves."
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+    <ImageView
+        android:id="@+id/shareIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/share_ic_black"
+        android:layout_gravity="end"
+        android:paddingEnd="16dp" />
+
+    <ImageView
+        android:id="@+id/infoIconIv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/info_icon_black"
+        android:layout_gravity="end"
+        android:paddingEnd="16dp" />
+
+</androidx.appcompat.widget.Toolbar>

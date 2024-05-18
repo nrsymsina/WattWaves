@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="mint_green">#98FF98</color>
+    <color name="light_mint_green">#B6FFBB</color>
+    <color name="dark_green">#14746f</color>
+
+    <color name="bright_blue">#00a7ef</color>
+    <color name="facebook_blue">#1877F2</color>
+    <color name="venice_blue">#09567A</color>
+    <color name="venice_blue_darker">#003046</color>
+
+
+</resources>

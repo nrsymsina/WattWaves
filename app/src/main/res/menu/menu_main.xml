@@ -1,0 +1,12 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <item-->
+<!--        android:id="@+id/action_search"-->
+<!--        android:icon="@drawable/ic_search"-->
+<!--        android:title="Search"-->
+<!--        android:showAsAction="ifRoom"/>-->
+<!--    <item-->
+<!--        android:id="@+id/action_settings"-->
+<!--        android:title="Settings"-->
+<!--        android:showAsAction="never"/>-->
+</menu>
