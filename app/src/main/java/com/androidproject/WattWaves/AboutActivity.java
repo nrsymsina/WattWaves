@@ -37,7 +37,7 @@ public class AboutActivity extends AppCompatActivity {
                 shareIntent.setType("text/plain");
 
                 // Add the content you want to share
-                String shareText = "Hey come try my Apps: https://github.com/nrsymsina/WattWaves";
+                String shareText = "https://github.com/nrsymsina/WattWaves";
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareText);
 
                 // Create a chooser intent to display a list of apps for sharing
