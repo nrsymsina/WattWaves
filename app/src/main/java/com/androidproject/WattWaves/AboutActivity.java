@@ -37,7 +37,7 @@ public class AboutActivity extends AppCompatActivity {
                 shareIntent.setType("text/plain");
 
                 // Add the content you want to share
-                String shareText = "Sharing this text with you!";
+                String shareText = "Hey come try my Apps: https://github.com/nrsymsina/WattWaves";
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareText);
 
                 // Create a chooser intent to display a list of apps for sharing
@@ -65,7 +65,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // GitHub repository URL
-                String githubUrl = "https://github.com/hamza372";
+                String githubUrl = "https://github.com/nrsymsina/WattWaves";
 
                 // Create intent to open the GitHub URL
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(githubUrl));
